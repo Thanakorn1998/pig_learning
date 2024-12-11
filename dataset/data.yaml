@@ -1,0 +1,13 @@
+train: dataset/train/images
+val: dataset/valid/images
+test: dataset/test/images
+
+nc: 1
+names: ['pig']
+
+roboflow:
+  workspace: pig-v8q0a
+  project: pig-y4pkr
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pig-v8q0a/pig-y4pkr/dataset/2
